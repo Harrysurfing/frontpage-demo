@@ -1,0 +1,37 @@
+.icon-container {
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	left: 1860px;
+	top: 0px;
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+.begin-button {
+	height: 60px;
+	width: 234px;
+	background-color: #55c6d7;
+
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 26px;
+	/* or 162% */
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: #0e1724;
+
+	margin-top: 150px;
+
+	&:hover {
+		cursor: pointer;
+	}
+}

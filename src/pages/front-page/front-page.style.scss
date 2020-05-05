@@ -1,0 +1,56 @@
+$back-color: #1a2c40;
+
+.front-page-container {
+	background-color: $back-color;
+	height: 100%;
+}
+
+.logo-container {
+	position: absolute;
+	left: 13.8%;
+	top: 40%;
+}
+
+.header-container {
+	position: absolute;
+	width: 318px;
+	height: 56px;
+	left: 331px;
+	top: 208px;
+
+	font-family: Arial;
+	font-size: 45px;
+	line-height: 52px;
+
+	/* Gray 6 */
+
+	color: #f2f2f2;
+}
+
+.globe {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	opacity: 0.9;
+}
+
+.start-prompt {
+	position: absolute;
+
+	height: 28.64px;
+	left: 320px;
+	top: 781px;
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+.start-line {
+	margin-left: 34.18px;
+	font-family: Arial;
+	font-size: 22px;
+	line-height: 150%;
+	/* or 33px */
+
+	color: #ffffff;
+}

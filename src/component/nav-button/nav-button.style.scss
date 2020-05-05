@@ -1,0 +1,20 @@
+.nav-button {
+	width: 100px;
+	height: 58px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 26px;
+	letter-spacing: 0.03em;
+	color: #ffffff;
+	display: flex;
+	justify-content: center;
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+.active {
+	border-bottom: 4px solid #55c6d7;
+}

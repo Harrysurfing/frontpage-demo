@@ -1,0 +1,74 @@
+.icon-container {
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	left: 1860px;
+	top: 0px;
+	&:hover {
+		cursor: pointer;
+	}
+}
+.paragrah {
+	width: 350px;
+	font-family: Montserrat;
+	text-align: left;
+	margin-top: 30px;
+}
+.feature-text {
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 26px;
+	/* or 144% */
+	margin-top: 0;
+	letter-spacing: 0.03em;
+	text-align: left;
+	padding-left: 10px;
+	width: 280px;
+	border-left: 5px solid #55c6d7;
+}
+.accordion-container {
+	position: absolute;
+	width: 555px;
+	left: 504px;
+	top: 82px;
+	max-height: 90vh;
+	overflow: scroll;
+}
+.page-control {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	display: flex;
+	justify-content: center;
+}
+.page-button {
+	outline: none;
+	border: none;
+	width: 70px;
+	height: 70px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 26px;
+	background: #e0e0e0;
+	&:hover {
+		cursor: pointer;
+		background: #55c6d7;
+
+		transform: scale(1.2, 1.2);
+	}
+}
+
+.rotate-icon {
+	transform: rotate(180deg);
+	box-sizing: border-box;
+	border: none;
+	height: 20px;
+}
